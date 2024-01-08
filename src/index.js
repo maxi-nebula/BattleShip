@@ -1,8 +1,6 @@
 /** @format */
 
-function tester() {
-  return "hi";
-}
+import gameBoard from "./gameBoard";
 
-tester();
-export default tester;
+const result = gameBoard("game board");
+console.log(result);
