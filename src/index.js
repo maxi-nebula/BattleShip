@@ -1,6 +1,13 @@
 /** @format */
 
+import "./style.css";
 import gameBoard from "./gameBoard";
 
-const result = gameBoard("game board");
-console.log(result);
+const gameGrid = gameBoard(10, 10);
+console.log(gameGrid);
+
+function displayBoard() {
+  document.body.appendChild(gameGrid);
+}
+
+displayBoard();

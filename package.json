@@ -4,8 +4,9 @@
   "description": "",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack"
+    "test": "jest",
+    "build": "webpack",
+    "watch": "npm-watch"
   },
   "repository": {
     "type": "git",
@@ -17,5 +18,25 @@
   "bugs": {
     "url": "https://github.com/maxi-nebula/BattleShip/issues"
   },
-  "homepage": "https://github.com/maxi-nebula/BattleShip#readme"
+  "homepage": "https://github.com/maxi-nebula/BattleShip#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.23.8",
+    "css-loader": "^6.8.1",
+    "style-loader": "^3.3.3",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "watch": {
+    "build": {
+      "patterns": [
+        "src"
+      ],
+      "extensions": "js,jsx,cjs,css"
+    }
+  },
+  "dependencies": {
+    "loadash": "^1.0.0",
+    "lodash": "^4.17.21",
+    "npm-watch": "^0.11.0"
+  }
 }
