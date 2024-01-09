@@ -21,7 +21,12 @@
   "homepage": "https://github.com/maxi-nebula/BattleShip#readme",
   "devDependencies": {
     "@babel/preset-env": "^7.23.8",
+    "babel-jest": "^29.7.0",
     "css-loader": "^6.8.1",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "jsdom": "^23.2.0",
     "style-loader": "^3.3.3",
     "webpack": "^5.89.0",
     "webpack-cli": "^5.1.4"
